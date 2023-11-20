@@ -1,0 +1,18 @@
+{
+  "name": "forum",
+  "description": "Created with **Nest**",
+  "version": "1.0.0",
+  "main": "example.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "tsc example.ts && node example.js",
+    "start": "nodemon tsc example.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "typescript": "^5.2.2"
+  }
+}
