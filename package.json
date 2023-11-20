@@ -2,13 +2,13 @@
   "name": "forum",
   "description": "Created with **Nest**",
   "version": "1.0.0",
-  "main": "example.js",
+  "main": "main.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "scripts": {
-    "dev": "tsc example.ts && node example.js",
-    "start": "nodemon tsc example.ts"
+    "dev": "tsc main.ts && node main.js",
+    "start": "nodemon tsc main.ts"
   },
   "dependencies": {},
   "devDependencies": {
