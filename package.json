@@ -1,18 +1,19 @@
 {
-  "name": "TODO",
-  "description": "Created with **TypeScript**",
+  "name": "TODO Terminal",
+  "description": "TODO Terminal is a node js app Created with TypeScript to manage todo tasks.",
   "version": "1.0.0",
   "main": "/src/main.ts",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Rasoul Vatanparast",
+  "license": "MIT",
   "scripts": {
     "start": "tsc && node ./dist/main.js",
     "dev": "nodemon ./src/main.ts",
+    "tsc": "npx tsc",
     "lint": "eslint ./"
   },
   "devDependencies": {
-    "@types/inquirer": "^9.0.7",
+    "@types/inquirer": "^8.2.10",
     "@types/lowdb": "^1.0.15",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
     "@typescript-eslint/parser": "^6.12.0",
@@ -22,7 +23,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "inquirer": "^9.2.12",
+    "inquirer": "^8.2.6",
     "lowdb": "^6.1.1"
   }
 }
